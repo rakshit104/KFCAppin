@@ -72,10 +72,10 @@ class ImagePickerManager: NSObject, UIImagePickerControllerDelegate, UINavigatio
     // For Swift 4.2+
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         picker.dismiss(animated: true, completion: nil)
-        guard let image = info[.originalImage] as? UIImage else {
-            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
-        }
-        pickImageCallback?(image)
+//        guard let image = info[.originalImage] as? UIImage else {
+//            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
+//        }
+//        pickImageCallback?(image)
     }
 
     @objc func imagePickerController(_ picker: UIImagePickerController, pickedImage: UIImage?) {

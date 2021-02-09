@@ -2,10 +2,10 @@ PODS:
   - Adjust (4.26.1):
     - Adjust/Core (= 4.26.1)
   - Adjust/Core (4.26.1)
-  - KFCAppin (0.1.0)
+  - KFCAppin (0.1.0):
+    - Adjust
 
 DEPENDENCIES:
-  - Adjust
   - KFCAppin (from `../`)
 
 SPEC REPOS:
@@ -18,8 +18,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Adjust: e8f9b8b50b3d234923389f8e0077ce911cf502d8
-  KFCAppin: 31832b2165f0697f82f4934b4c058cdd464e8d89
+  KFCAppin: 37eb73eaf1752c6872a5273c2e798b814af85383
 
-PODFILE CHECKSUM: 658a865ad8f485b6286833fc82fd034929d55ef6
+PODFILE CHECKSUM: 2663e9b4ed100de0fd509b55383b7becd99f325b
 
 COCOAPODS: 1.9.3

@@ -126,14 +126,15 @@ class HandleQRCodeLink: NSObject, URLSessionTaskDelegate {
     ///
     ///  - parameter url: The Url for getting the Universal Link
     private func getAdjustUniversalLink(url: String) -> String?{
-        let decodedUrl = url.removingPercentEncoding ?? ""
-        
-        if let urlString = URL.init(string: url) , let link = Adjust().convertUniversalLink(urlString, scheme: ""){
-            return link.absoluteString
-        }else if let urlString = URL.init(string: decodedUrl), let link = Adjust().convertUniversalLink(urlString, scheme: ""){
-            return link.absoluteString
-        }
-        return nil
+//        let decodedUrl = url.removingPercentEncoding ?? ""
+//
+//        if let urlString = URL.init(string: url) , let link = Adjust().convertUniversalLink(urlString, scheme: ""){
+//            return link.absoluteString
+//        }else if let urlString = URL.init(string: decodedUrl), let link = Adjust().convertUniversalLink(urlString, scheme: ""){
+//            return link.absoluteString
+//        }
+//        return nil
+        return ""
     }
     
     ///  Validate the URL based on the countryId
