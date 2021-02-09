@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Adjust
+//import Adjust
 
 class HandleQRCodeLink: NSObject, URLSessionTaskDelegate {
     

@@ -5,7 +5,7 @@ platform :ios, '9.0'
 target 'KFCAppin_Example' do
   pod 'KFCAppin', :path => '../'
 	
-  pod 'Adjust'
+#  pod 'Adjust'
 
   target 'KFCAppin_Tests' do
     inherit! :search_paths
