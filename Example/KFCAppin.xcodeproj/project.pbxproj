@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		01EB40B9E2D6A9B8C274C48E /* Pods-KFCAppin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCAppin_Example.debug.xcconfig"; path = "Target Support Files/Pods-KFCAppin_Example/Pods-KFCAppin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		514ECED8B58AB60D66C0DB07 /* Pods-KFCAppin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCAppin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KFCAppin_Tests/Pods-KFCAppin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D5489A29EE4FDC3EB565E37 /* KFCAppin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KFCAppin.podspec; path = ../KFCAppin.podspec; sourceTree = "<group>"; };
+		5D5489A29EE4FDC3EB565E37 /* KFCAppin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFCAppin.podspec; path = ../KFCAppin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* KFCAppin_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFCAppin_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		AD15E108F70A30D40464684E /* Pods_KFCAppin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFCAppin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AEB2B0F9CF27FCAD4412FE /* Pods_KFCAppin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFCAppin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8F165BB206DD2D32F6ECB45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E00ABB70B16AF9EDDCCD5A06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8F165BB206DD2D32F6ECB45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E00ABB70B16AF9EDDCCD5A06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E958CF99ABC109B7868A9E9E /* Pods-KFCAppin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCAppin_Example.release.xcconfig"; path = "Target Support Files/Pods-KFCAppin_Example/Pods-KFCAppin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F2A50C8344796CC682621143 /* Pods-KFCAppin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCAppin_Tests.release.xcconfig"; path = "Target Support Files/Pods-KFCAppin_Tests/Pods-KFCAppin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				514ECED8B58AB60D66C0DB07 /* Pods-KFCAppin_Tests.debug.xcconfig */,
 				F2A50C8344796CC682621143 /* Pods-KFCAppin_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -313,11 +313,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KFCAppin_Example/Pods-KFCAppin_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KFCAppin/KFCAppin.framework",
+				"${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFCAppin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adjust.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,6 @@
+framework module KFCAppin {
+  umbrella header "KFCAppin-umbrella.h"
+
+  export *
+  module * { export * }
+}

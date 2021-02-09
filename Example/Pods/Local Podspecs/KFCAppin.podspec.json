@@ -1,0 +1,22 @@
+{
+  "name": "KFCAppin",
+  "version": "0.1.0",
+  "summary": "A short description of KFCAppin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rakshit104@gmail.com/KFCAppin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rakshit104@gmail.com": "rakshit.bhardwaj@appinventiv.com"
+  },
+  "source": {
+    "git": "https://github.com/rakshit104@gmail.com/KFCAppin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KFCAppin/Classes/**/*"
+}

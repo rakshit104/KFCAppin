@@ -1,0 +1,1178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A35D6960D9B93421441050FE213EB232 /* KFCAppin */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8D601DC2F277A26420F4D4FB58E99A0E /* Build configuration list for PBXAggregateTarget "KFCAppin" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KFCAppin;
+			productName = KFCAppin;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03F601208CF2B7BEEF9D92C43B8EA043 /* ADJActivityState.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE46D9F5A2381411D2650D3C863D9A /* ADJActivityState.m */; };
+		0573C8F2A14EE1F0FB799645AEFE68ED /* NSString+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D163B2BA8576CCD017097CFE9C59BE04 /* NSString+ADJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		066C71565EBD6B0DE554D28593145BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */; };
+		0C4AC7764C4899AFF0A3A536641FBA68 /* Pods-KFCAppin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2615225ADDFFD677C3007BD26BD79E /* Pods-KFCAppin_Tests-dummy.m */; };
+		0C87CA885043ABD210C6A02FD33FF2AD /* ADJSessionParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C3F4E8BE79ECCC3E549BEE218C5F50 /* ADJSessionParameters.m */; };
+		10B3BC360F88F00E9E2C158BBF0ABC6A /* ADJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CD96D3A3536EE7BD56A48AF8C44EB37F /* ADJConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12ABC8F9F2132408F0402CDEA2A013DA /* ADJPackageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 165C25A791F45365861D493C7BAF47C7 /* ADJPackageHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14BA834278C50C5DE870AC1F48531B99 /* ADJActivityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 694C0B076C9904EE378209E787F8CAFE /* ADJActivityHandler.m */; };
+		15DA78D881D3E866F215060984A97F59 /* ADJDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E4ED060053DAF9312218A51C7C90596A /* ADJDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19205F50AFE96AE03834C7F8866EE547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */; };
+		19231CE1925DB7B663784C7E9C9C024A /* ADJPackageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B1B7E85AA039297E8A86564F096999 /* ADJPackageBuilder.m */; };
+		1DC442080261E6369378105DB84D95C6 /* ADJSystemProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DECA41FB117E8246DF95A5D21B9DEC /* ADJSystemProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C1916124997974183C4BA49563B048 /* ADJActivityHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A962D2FB1D57D61E8EED57BA932E491 /* ADJActivityHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24EC6C18AEA88222B1E2D617F8EE61B4 /* ADJSdkClickHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDE51B9A1373F29AEA469DC07761F06 /* ADJSdkClickHandler.m */; };
+		2E1B5EC303555277E1B22D3FDA2D3221 /* ADJAttribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7F248A37A6697C14D9B3BFE5C61C4E /* ADJAttribution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34ACF124784B06592AC5CA3824D87D17 /* ADJAdjustFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 107440DF52034832E48211E893D67315 /* ADJAdjustFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376A180B0267F3DFEDBE07F89C51E225 /* ADJSystemProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = E20DAAABF224B48DC7E283A1EB0C6080 /* ADJSystemProfile.m */; };
+		38FB3ACCBE836A387768C1C0A4D9771A /* ADJEventFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FEDBBEFB8966FC9FD36A999A4C7396 /* ADJEventFailure.m */; };
+		3B7B9E8FE50F54B06CF03C3DD45E9975 /* ADJSessionFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C888327E0CF1281EAA651908EE1333E /* ADJSessionFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C0385F426EAB612E851135F293BC818 /* ADJAttributionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B103059FDE3A7A7C01F085A75B28DA /* ADJAttributionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EFAB9A79FBCD357BE5FBBDEFDC62F4C /* ADJAttribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A99738A0A1CC48778BD9058B659290 /* ADJAttribution.m */; };
+		40625D66ED58C3D18EC463B3D641B7D9 /* ADJTimerCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A4FDBE7AE5176C2986A4AD85CF290 /* ADJTimerCycle.m */; };
+		44B3681E47B1E50EBC627F0F7DD748CF /* Adjust-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBD0B05999C09608389538A76382817 /* Adjust-dummy.m */; };
+		4957A1982AAF824C4FFB5E872BE01708 /* NSString+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B461B3F0112D8C5280404CBFD2E6F48 /* NSString+ADJAdditions.m */; };
+		4C757817A98C01FD567192CEB5B18782 /* ADJUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A760FB61018EE879F4FFE12BFC6031D /* ADJUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6DCCF246B2C412E80671D32544A0F4 /* ADJEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BA20E9CE0D989850825178539F18E3 /* ADJEvent.m */; };
+		4EFEB0C354D954FB23A564963C85D246 /* ADJEventFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4296E7BC47279755F05E72A3C0D8B2 /* ADJEventFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		510194D626976A809373233F3455AF23 /* ADJUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 39630B4F7131E978F5524BE18F4D934E /* ADJUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D15BCE481B53B38C94D108FA90E622 /* ADJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA665F239F811BB18A6555FB4798545 /* ADJUtil.m */; };
+		53CD8902ECEDF59B39DAC16C9D359712 /* ADJDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C143A3CB4D2B927C70FBEC2AF9E20FD2 /* ADJDeviceInfo.m */; };
+		5628F940169D37066B0A59ACEE37087E /* ADJReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B361F64905254E352DDD5F7BDA087 /* ADJReachability.m */; };
+		562952ED7004A072E5EC6E4428625127 /* ADJEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B20F5E625430B2E9131F034F425770F /* ADJEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57966CDAE0E069410D1AA1DEAF6B182A /* ADJPackageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3C3B3ADB3E8396DCEAAFC2325508B7 /* ADJPackageBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B011FC26D71DCF4FD762B2FDE271F05 /* ADJResponseData.h in Headers */ = {isa = PBXBuildFile; fileRef = 77847C05CEABDC3A1A79F86A4D1F02A0 /* ADJResponseData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BDD9E346B42C4B569DFD979AEEAF908 /* ADJActivityPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947BCE992CAB695ADCA18B0634EB689 /* ADJActivityPackage.m */; };
+		5E542A35F4403B6502E596E57866C282 /* ADJActivityPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF6498E9B03F705643EDCEDD9CBC52B /* ADJActivityPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6216B90B9847909F88D3E1DB0BC64B31 /* ADJUrlStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C4535497BE809B483162B53E7FE29 /* ADJUrlStrategy.m */; };
+		63229EDF9AC62A18736E28C5DB1CA53E /* Adjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E3759FA6839B1D9A5C76FA30CAA2D /* Adjust.m */; };
+		6C24723F8BBD265B83678C3B8CC8EDE2 /* Adjust-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E80B08244CAD2D2C1398CE3EC8B39AA /* Adjust-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E3AB2B1F763B244D785C41BC468492D /* UIDevice+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6623D9D93CECB873010EEED8F0A6C1 /* UIDevice+ADJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70EAF5B2026BEBD9F0FE89CB03F75CAA /* ADJActivityKind.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D3460C6C5466F16E67F56F21765914 /* ADJActivityKind.m */; };
+		72EA79CD2C724520322A4AFF05C6B7F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4F7799189C352E1D9346617C1FCFED /* SystemConfiguration.framework */; };
+		7460CE50C414A31A24F28726BE1C8538 /* NSData+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED94BA258B85E655626F019BD73CA0E3 /* NSData+ADJAdditions.m */; };
+		797F141BFC2A0F4675DCA360909BD64E /* Adjust.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2AF85BD4C9A2E52F6132399061D4D8 /* Adjust.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BA67D2285387D0D573E72C06AB54A7 /* ADJUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF510AB81AB118F4BDAEBB12014378 /* ADJUserDefaults.m */; };
+		7BC8146C81727D26D8905C375AB896D8 /* ADJEventSuccess.h in Headers */ = {isa = PBXBuildFile; fileRef = F0055C590AF323A27C459E63E0C22D77 /* ADJEventSuccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4453CA364E8A09A1C1CAE3DFBBCA91 /* ADJKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CC5E436DBC97552FFC97022C924D93 /* ADJKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE02FA80F55EA368D1424CBF9086480 /* ADJResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B24E66A986C66573BB25854862F4577 /* ADJResponseData.m */; };
+		7E098CD8F97B40D76F38E64301FFD055 /* Pods-KFCAppin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B033652594825838D9C18A39F215DE17 /* Pods-KFCAppin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82020DF0C17D94696E709D39D3A13CCF /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC33AE743DE1C468BDD79F20D2BCB36 /* ADJLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D80F1C1A4413ACBF7DC5A41F1DD8BC /* ADJBackoffStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B8094BA1A58AAAEF57C6C528BF185A /* ADJBackoffStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E0FFF7BE3777345A7DF5352EEB630A7 /* ADJRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C5441180A8DF72B9DBAA4E235B265F /* ADJRequestHandler.m */; };
+		8ED237F0368BF42840AB3495CF1F8B98 /* ADJPackageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C6CE59CF7BA7E0580C3280353E47B /* ADJPackageHandler.m */; };
+		8F336F4E0AF7358CDC63F6DD1C01C752 /* ADJSessionParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = F1CA31B9A99121AF7C2BC33716BE6A42 /* ADJSessionParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9018112C3BDB6342507590F0B5689777 /* ADJReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B314FA28F50CA212F8A418AF50FEF2 /* ADJReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		921613A90E6401228E35044550BAD469 /* ADJLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED853F7C4457E345DCF4A8621132A9 /* ADJLogger.m */; };
+		92EB87665600C8456488034652EADE3A /* ADJAdjustFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C23A41324C0F74AC9316548CE406AD2B /* ADJAdjustFactory.m */; };
+		9448EAA12834734ECDD051731DF6E137 /* ADJBackoffStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF781EC26EF688A2EEB4A1800786E14 /* ADJBackoffStrategy.m */; };
+		9BAC709C988170098806704D8FDC7BBD /* ADJActivityState.h in Headers */ = {isa = PBXBuildFile; fileRef = A092775B1F6C45DE4731FDA6485EF83B /* ADJActivityState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F0080D7AFE0E984D9B77B66FFBBDDB /* ADJKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FC9D7C72342BCB402DF1C50155B9C /* ADJKeychain.m */; };
+		A307E74D448A1B23608164B480D52C40 /* ADJTimerCycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E53B0C075EA1CB99DCC0F0B4F8011F /* ADJTimerCycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A37165203ADEF555EFEE97A0EF6D0D55 /* NSData+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E454E8F595F6D589DDFCBB6667A331ED /* NSData+ADJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5C0944E4A54F8B99ADF8627332819D /* Pods-KFCAppin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3F804CE3C015BE0E29A7148DA731FA /* Pods-KFCAppin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC4768F54B67F03E49E806180A8F6917 /* ADJSessionFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = A322990F29E2FCCE2AEAACA623145E7E /* ADJSessionFailure.m */; };
+		AC7531C4BA02EA16D946E76451227EF1 /* ADJConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD03F1A85BDF2F017C40C9972BF4EC0 /* ADJConfig.m */; };
+		ACEAFFEFA6C0FF5A0BC9F29F163B607D /* Pods-KFCAppin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDAC6490778B58D36E9E9F40EF33AE5 /* Pods-KFCAppin_Example-dummy.m */; };
+		B28A99D3D9F934BEE426E6BC1099846B /* ADJTimerOnce.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C94966E398F679660476B4BB8FF800 /* ADJTimerOnce.m */; };
+		BD5B62831F8FBA670B10AA6413EB4CD6 /* ADJThirdPartySharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 739821A97CBD9CAB94421CC5CB52E536 /* ADJThirdPartySharing.m */; };
+		C5FD920C2F92F7F609DE924353EFB3E2 /* ADJSdkClickHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A898C3D78536AA276F2A4038A7D921D /* ADJSdkClickHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8294124BBE5E06B98667C53BCBF628F /* ADJSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC20F53915B531475FFA753B986328 /* ADJSubscription.m */; };
+		CD9AB780DFA7FD1FA5004F711B5DDD2A /* ADJRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D93B5462F8B302559CCC78D9FC1716 /* ADJRequestHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A18A4498F804DC00EA55466708A56F /* ADJEventSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 1320571E6816062B7F23CA4A797278A3 /* ADJEventSuccess.m */; };
+		D8080E1A9445C937FB60D940DB9E92B9 /* ADJSessionSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BF982EDA658CFE35C9C3377B6AF657 /* ADJSessionSuccess.m */; };
+		D9F5D2705F3C5B08E20DA1EBE1A25844 /* ADJAttributionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1483283CA2943EB2EE86F1E574E03 /* ADJAttributionHandler.m */; };
+		E022EAACDD7F2D58E223F27582BAEB9B /* ADJSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E81DD6F0D76221401322364B8229A9 /* ADJSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3CD919C4FE1F1C4BB175157355A2C1C /* ADJActivityKind.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E53034C78A721BFB40AF3806C781397 /* ADJActivityKind.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7D4329C2B9D719A49904DAA79925B02 /* ADJThirdPartySharing.h in Headers */ = {isa = PBXBuildFile; fileRef = 081EF6666148AEFB5A374589770DF880 /* ADJThirdPartySharing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF53F62BD6D308E1E93C44946703C2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */; };
+		F2F61B85243030A49FAFD01A4EF1241E /* ADJTimerOnce.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1E96FC04EBF3603FB00451D1E21CA3 /* ADJTimerOnce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBD42B662B4D82064BD53233F42CAA71 /* ADJSessionSuccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 600A372F468341B8B8BD34970EEE9A45 /* ADJSessionSuccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBDA5B427FD30E67E565F4787BB32D08 /* ADJUrlStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D16D200865EE67B8D7EB78B1B9DC38 /* ADJUrlStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7C0E46CE9F1405145956F321EA8E55 /* UIDevice+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A495FBA8751E9A4CF1D671DA9B0EB7F /* UIDevice+ADJAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		795EA14D73D8B5232F941C10085D39F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35D6960D9B93421441050FE213EB232;
+			remoteInfo = KFCAppin;
+		};
+		C8A11BB2A38A0D6D8DAA35F9D1D6C51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ADC4A7518646598EC33AD0331C4236A;
+			remoteInfo = "Pods-KFCAppin_Example";
+		};
+		DB4C0720B4F974AF359E8184B3EDF9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111F362EA0D14BECD8B96EA1EAA5F79;
+			remoteInfo = Adjust;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081EF6666148AEFB5A374589770DF880 /* ADJThirdPartySharing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJThirdPartySharing.h; path = Adjust/ADJThirdPartySharing.h; sourceTree = "<group>"; };
+		0A495FBA8751E9A4CF1D671DA9B0EB7F /* UIDevice+ADJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+ADJAdditions.m"; path = "Adjust/ADJAdditions/UIDevice+ADJAdditions.m"; sourceTree = "<group>"; };
+		0A962D2FB1D57D61E8EED57BA932E491 /* ADJActivityHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityHandler.h; path = Adjust/ADJActivityHandler.h; sourceTree = "<group>"; };
+		0B461B3F0112D8C5280404CBFD2E6F48 /* NSString+ADJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ADJAdditions.m"; path = "Adjust/ADJAdditions/NSString+ADJAdditions.m"; sourceTree = "<group>"; };
+		107440DF52034832E48211E893D67315 /* ADJAdjustFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAdjustFactory.h; path = Adjust/ADJAdjustFactory.h; sourceTree = "<group>"; };
+		11222ED35C08FAA97434FA22291B50B7 /* Pods-KFCAppin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFCAppin_Tests.modulemap"; sourceTree = "<group>"; };
+		1320571E6816062B7F23CA4A797278A3 /* ADJEventSuccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEventSuccess.m; path = Adjust/ADJEventSuccess.m; sourceTree = "<group>"; };
+		165C25A791F45365861D493C7BAF47C7 /* ADJPackageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPackageHandler.h; path = Adjust/ADJPackageHandler.h; sourceTree = "<group>"; };
+		16F0A6C919B7A9F50831F5B80913B55F /* Pods-KFCAppin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFCAppin_Tests-Info.plist"; sourceTree = "<group>"; };
+		1A3C4535497BE809B483162B53E7FE29 /* ADJUrlStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJUrlStrategy.m; path = Adjust/ADJUrlStrategy.m; sourceTree = "<group>"; };
+		1CDAC6490778B58D36E9E9F40EF33AE5 /* Pods-KFCAppin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFCAppin_Example-dummy.m"; sourceTree = "<group>"; };
+		1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		24B314FA28F50CA212F8A418AF50FEF2 /* ADJReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJReachability.h; path = Adjust/ADJReachability.h; sourceTree = "<group>"; };
+		292B361F64905254E352DDD5F7BDA087 /* ADJReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJReachability.m; path = Adjust/ADJReachability.m; sourceTree = "<group>"; };
+		2AF781EC26EF688A2EEB4A1800786E14 /* ADJBackoffStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJBackoffStrategy.m; path = Adjust/ADJBackoffStrategy.m; sourceTree = "<group>"; };
+		2B24E66A986C66573BB25854862F4577 /* ADJResponseData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJResponseData.m; path = Adjust/ADJResponseData.m; sourceTree = "<group>"; };
+		2E7F248A37A6697C14D9B3BFE5C61C4E /* ADJAttribution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAttribution.h; path = Adjust/ADJAttribution.h; sourceTree = "<group>"; };
+		2F3F804CE3C015BE0E29A7148DA731FA /* Pods-KFCAppin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFCAppin_Example-umbrella.h"; sourceTree = "<group>"; };
+		31D3460C6C5466F16E67F56F21765914 /* ADJActivityKind.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityKind.m; path = Adjust/ADJActivityKind.m; sourceTree = "<group>"; };
+		31E6873C4C989DD08896E28770705337 /* Adjust-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adjust-prefix.pch"; sourceTree = "<group>"; };
+		328B435905E7B0A9221D96F4A2B38BFF /* KFCAppin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFCAppin.debug.xcconfig; sourceTree = "<group>"; };
+		32B1B7E85AA039297E8A86564F096999 /* ADJPackageBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPackageBuilder.m; path = Adjust/ADJPackageBuilder.m; sourceTree = "<group>"; };
+		34E53B0C075EA1CB99DCC0F0B4F8011F /* ADJTimerCycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJTimerCycle.h; path = Adjust/ADJTimerCycle.h; sourceTree = "<group>"; };
+		36BA667A194B76AEBA6F338F8C139BE9 /* Pods-KFCAppin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFCAppin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		38AE46D9F5A2381411D2650D3C863D9A /* ADJActivityState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityState.m; path = Adjust/ADJActivityState.m; sourceTree = "<group>"; };
+		39630B4F7131E978F5524BE18F4D934E /* ADJUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUtil.h; path = Adjust/ADJUtil.h; sourceTree = "<group>"; };
+		3B20F5E625430B2E9131F034F425770F /* ADJEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEvent.h; path = Adjust/ADJEvent.h; sourceTree = "<group>"; };
+		4947BCE992CAB695ADCA18B0634EB689 /* ADJActivityPackage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityPackage.m; path = Adjust/ADJActivityPackage.m; sourceTree = "<group>"; };
+		4E2615225ADDFFD677C3007BD26BD79E /* Pods-KFCAppin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFCAppin_Tests-dummy.m"; sourceTree = "<group>"; };
+		4E53034C78A721BFB40AF3806C781397 /* ADJActivityKind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityKind.h; path = Adjust/ADJActivityKind.h; sourceTree = "<group>"; };
+		4F83F0755FF1D0B9360949F9AB6B4BB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5322F1198B7C017881BA849C9C836F75 /* Pods-KFCAppin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFCAppin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		558C5003F51624BBDF4CDF42D4300284 /* Pods-KFCAppin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFCAppin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C888327E0CF1281EAA651908EE1333E /* ADJSessionFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSessionFailure.h; path = Adjust/ADJSessionFailure.h; sourceTree = "<group>"; };
+		5CC1483283CA2943EB2EE86F1E574E03 /* ADJAttributionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAttributionHandler.m; path = Adjust/ADJAttributionHandler.m; sourceTree = "<group>"; };
+		600A372F468341B8B8BD34970EEE9A45 /* ADJSessionSuccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSessionSuccess.h; path = Adjust/ADJSessionSuccess.h; sourceTree = "<group>"; };
+		60C94966E398F679660476B4BB8FF800 /* ADJTimerOnce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJTimerOnce.m; path = Adjust/ADJTimerOnce.m; sourceTree = "<group>"; };
+		62963B6795EDC5326817742321A9E534 /* Pods_KFCAppin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFCAppin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662E3759FA6839B1D9A5C76FA30CAA2D /* Adjust.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Adjust.m; path = Adjust/Adjust.m; sourceTree = "<group>"; };
+		667D92456BFAA338135F7B97D78110E9 /* Pods-KFCAppin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFCAppin_Example.modulemap"; sourceTree = "<group>"; };
+		68FB5D82DFDDE44E7695A67375B223E6 /* KFCAppin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KFCAppin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		694C0B076C9904EE378209E787F8CAFE /* ADJActivityHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityHandler.m; path = Adjust/ADJActivityHandler.m; sourceTree = "<group>"; };
+		6E1E96FC04EBF3603FB00451D1E21CA3 /* ADJTimerOnce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJTimerOnce.h; path = Adjust/ADJTimerOnce.h; sourceTree = "<group>"; };
+		6EDF510AB81AB118F4BDAEBB12014378 /* ADJUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJUserDefaults.m; path = Adjust/ADJUserDefaults.m; sourceTree = "<group>"; };
+		6FBD0B05999C09608389538A76382817 /* Adjust-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Adjust-dummy.m"; sourceTree = "<group>"; };
+		70ED853F7C4457E345DCF4A8621132A9 /* ADJLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJLogger.m; path = Adjust/ADJLogger.m; sourceTree = "<group>"; };
+		739821A97CBD9CAB94421CC5CB52E536 /* ADJThirdPartySharing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJThirdPartySharing.m; path = Adjust/ADJThirdPartySharing.m; sourceTree = "<group>"; };
+		75C5441180A8DF72B9DBAA4E235B265F /* ADJRequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJRequestHandler.m; path = Adjust/ADJRequestHandler.m; sourceTree = "<group>"; };
+		760708368D2AEC8B92FBF25701853876 /* Adjust-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Adjust-Info.plist"; sourceTree = "<group>"; };
+		76437C0669E274C47545728DF8438FE8 /* Pods-KFCAppin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFCAppin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		76D16D200865EE67B8D7EB78B1B9DC38 /* ADJUrlStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUrlStrategy.h; path = Adjust/ADJUrlStrategy.h; sourceTree = "<group>"; };
+		77847C05CEABDC3A1A79F86A4D1F02A0 /* ADJResponseData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJResponseData.h; path = Adjust/ADJResponseData.h; sourceTree = "<group>"; };
+		7A760FB61018EE879F4FFE12BFC6031D /* ADJUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUserDefaults.h; path = Adjust/ADJUserDefaults.h; sourceTree = "<group>"; };
+		7E9A4FDBE7AE5176C2986A4AD85CF290 /* ADJTimerCycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJTimerCycle.m; path = Adjust/ADJTimerCycle.m; sourceTree = "<group>"; };
+		7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adjust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8397DC1C8DA3F1A61C19DCE8B85825B5 /* Adjust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adjust.release.xcconfig; sourceTree = "<group>"; };
+		84D93B5462F8B302559CCC78D9FC1716 /* ADJRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJRequestHandler.h; path = Adjust/ADJRequestHandler.h; sourceTree = "<group>"; };
+		85A99738A0A1CC48778BD9058B659290 /* ADJAttribution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAttribution.m; path = Adjust/ADJAttribution.m; sourceTree = "<group>"; };
+		86946142A45622F6E8ED2B424DF0CB3D /* KFCAppin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFCAppin.release.xcconfig; sourceTree = "<group>"; };
+		8A3C3B3ADB3E8396DCEAAFC2325508B7 /* ADJPackageBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPackageBuilder.h; path = Adjust/ADJPackageBuilder.h; sourceTree = "<group>"; };
+		8A898C3D78536AA276F2A4038A7D921D /* ADJSdkClickHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSdkClickHandler.h; path = Adjust/ADJSdkClickHandler.h; sourceTree = "<group>"; };
+		8E4296E7BC47279755F05E72A3C0D8B2 /* ADJEventFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEventFailure.h; path = Adjust/ADJEventFailure.h; sourceTree = "<group>"; };
+		924938735B0D4AA11678D11786EF47F3 /* Pods-KFCAppin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFCAppin_Example-Info.plist"; sourceTree = "<group>"; };
+		93BF982EDA658CFE35C9C3377B6AF657 /* ADJSessionSuccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSessionSuccess.m; path = Adjust/ADJSessionSuccess.m; sourceTree = "<group>"; };
+		95B8094BA1A58AAAEF57C6C528BF185A /* ADJBackoffStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJBackoffStrategy.h; path = Adjust/ADJBackoffStrategy.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E80B08244CAD2D2C1398CE3EC8B39AA /* Adjust-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adjust-umbrella.h"; sourceTree = "<group>"; };
+		9EDC20F53915B531475FFA753B986328 /* ADJSubscription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSubscription.m; path = Adjust/ADJSubscription.m; sourceTree = "<group>"; };
+		A084124BA71BD6E866EA2610E295B637 /* Pods-KFCAppin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFCAppin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A092775B1F6C45DE4731FDA6485EF83B /* ADJActivityState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityState.h; path = Adjust/ADJActivityState.h; sourceTree = "<group>"; };
+		A322990F29E2FCCE2AEAACA623145E7E /* ADJSessionFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSessionFailure.m; path = Adjust/ADJSessionFailure.m; sourceTree = "<group>"; };
+		A9BA20E9CE0D989850825178539F18E3 /* ADJEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEvent.m; path = Adjust/ADJEvent.m; sourceTree = "<group>"; };
+		B033652594825838D9C18A39F215DE17 /* Pods-KFCAppin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFCAppin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B2DECA41FB117E8246DF95A5D21B9DEC /* ADJSystemProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSystemProfile.h; path = Adjust/ADJSystemProfile.h; sourceTree = "<group>"; };
+		B3CC5E436DBC97552FFC97022C924D93 /* ADJKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJKeychain.h; path = Adjust/ADJKeychain.h; sourceTree = "<group>"; };
+		B5A5177D106E6E44E4AC907B2C6B2B72 /* Adjust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adjust.debug.xcconfig; sourceTree = "<group>"; };
+		BBDE51B9A1373F29AEA469DC07761F06 /* ADJSdkClickHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSdkClickHandler.m; path = Adjust/ADJSdkClickHandler.m; sourceTree = "<group>"; };
+		BCC33AE743DE1C468BDD79F20D2BCB36 /* ADJLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJLogger.h; path = Adjust/ADJLogger.h; sourceTree = "<group>"; };
+		BDD03F1A85BDF2F017C40C9972BF4EC0 /* ADJConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJConfig.m; path = Adjust/ADJConfig.m; sourceTree = "<group>"; };
+		C143A3CB4D2B927C70FBEC2AF9E20FD2 /* ADJDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJDeviceInfo.m; path = Adjust/ADJDeviceInfo.m; sourceTree = "<group>"; };
+		C23A41324C0F74AC9316548CE406AD2B /* ADJAdjustFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAdjustFactory.m; path = Adjust/ADJAdjustFactory.m; sourceTree = "<group>"; };
+		C35221975A250BFC2375A21E28407AEA /* Pods-KFCAppin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFCAppin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3C3F4E8BE79ECCC3E549BEE218C5F50 /* ADJSessionParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSessionParameters.m; path = Adjust/ADJSessionParameters.m; sourceTree = "<group>"; };
+		CAF6498E9B03F705643EDCEDD9CBC52B /* ADJActivityPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityPackage.h; path = Adjust/ADJActivityPackage.h; sourceTree = "<group>"; };
+		CB9D7A0D090E1D86D7BB45424F165C55 /* Pods-KFCAppin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFCAppin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CD8072B3AB96174515CF4882065BFEB2 /* Pods_KFCAppin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFCAppin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD96D3A3536EE7BD56A48AF8C44EB37F /* ADJConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJConfig.h; path = Adjust/ADJConfig.h; sourceTree = "<group>"; };
+		CE4F7799189C352E1D9346617C1FCFED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		CFA665F239F811BB18A6555FB4798545 /* ADJUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJUtil.m; path = Adjust/ADJUtil.m; sourceTree = "<group>"; };
+		D0FEDBBEFB8966FC9FD36A999A4C7396 /* ADJEventFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEventFailure.m; path = Adjust/ADJEventFailure.m; sourceTree = "<group>"; };
+		D163B2BA8576CCD017097CFE9C59BE04 /* NSString+ADJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ADJAdditions.h"; path = "Adjust/ADJAdditions/NSString+ADJAdditions.h"; sourceTree = "<group>"; };
+		D23C6CE59CF7BA7E0580C3280353E47B /* ADJPackageHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPackageHandler.m; path = Adjust/ADJPackageHandler.m; sourceTree = "<group>"; };
+		D2D4178BDA322C6B35885D1367E2ECD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D5B103059FDE3A7A7C01F085A75B28DA /* ADJAttributionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAttributionHandler.h; path = Adjust/ADJAttributionHandler.h; sourceTree = "<group>"; };
+		D5E81DD6F0D76221401322364B8229A9 /* ADJSubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSubscription.h; path = Adjust/ADJSubscription.h; sourceTree = "<group>"; };
+		D63F4BCDED5B98AD0A0DA0C056D21A0C /* Pods-KFCAppin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFCAppin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D7B675C1E06578BE47E2AC723E4A5001 /* Pods-KFCAppin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFCAppin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DE6623D9D93CECB873010EEED8F0A6C1 /* UIDevice+ADJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+ADJAdditions.h"; path = "Adjust/ADJAdditions/UIDevice+ADJAdditions.h"; sourceTree = "<group>"; };
+		E20DAAABF224B48DC7E283A1EB0C6080 /* ADJSystemProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSystemProfile.m; path = Adjust/ADJSystemProfile.m; sourceTree = "<group>"; };
+		E454E8F595F6D589DDFCBB6667A331ED /* NSData+ADJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ADJAdditions.h"; path = "Adjust/ADJAdditions/NSData+ADJAdditions.h"; sourceTree = "<group>"; };
+		E4ED060053DAF9312218A51C7C90596A /* ADJDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJDeviceInfo.h; path = Adjust/ADJDeviceInfo.h; sourceTree = "<group>"; };
+		ED94BA258B85E655626F019BD73CA0E3 /* NSData+ADJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ADJAdditions.m"; path = "Adjust/ADJAdditions/NSData+ADJAdditions.m"; sourceTree = "<group>"; };
+		EE2AF85BD4C9A2E52F6132399061D4D8 /* Adjust.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Adjust.h; path = Adjust/Adjust.h; sourceTree = "<group>"; };
+		EEEC1F38306C3D3CC9E2D652B77FF838 /* Adjust.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Adjust.modulemap; sourceTree = "<group>"; };
+		F0055C590AF323A27C459E63E0C22D77 /* ADJEventSuccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEventSuccess.h; path = Adjust/ADJEventSuccess.h; sourceTree = "<group>"; };
+		F1CA31B9A99121AF7C2BC33716BE6A42 /* ADJSessionParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSessionParameters.h; path = Adjust/ADJSessionParameters.h; sourceTree = "<group>"; };
+		F486700B25D2CBD70015FF9B /* ImagePickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		F486700C25D2CBD70015FF9B /* HandleQRCodeLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleQRCodeLink.swift; sourceTree = "<group>"; };
+		F486700D25D2CBD70015FF9B /* QRParentVC + PhotoUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QRParentVC + PhotoUI.swift"; sourceTree = "<group>"; };
+		F486700E25D2CBD70015FF9B /* DeeplinkAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeeplinkAttributes.swift; sourceTree = "<group>"; };
+		F486700F25D2CBD70015FF9B /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		F52FC9D7C72342BCB402DF1C50155B9C /* ADJKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJKeychain.m; path = Adjust/ADJKeychain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53DB41569751843126997ECE133443BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066C71565EBD6B0DE554D28593145BC1 /* Foundation.framework in Frameworks */,
+				72EA79CD2C724520322A4AFF05C6B7F8 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D93D33F640A082FF093A4B8624168B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19205F50AFE96AE03834C7F8866EE547 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FE3EAC5BADC0B07E32CB95969DA2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF53F62BD6D308E1E93C44946703C2F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB7EBF6CCCA535BA4F447E10039CEA16 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16DA9847B8DF54AECE94B1D456D092EB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				68FB5D82DFDDE44E7695A67375B223E6 /* KFCAppin.podspec */,
+				D2D4178BDA322C6B35885D1367E2ECD2 /* LICENSE */,
+				4F83F0755FF1D0B9360949F9AB6B4BB3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1EA5F93377651198AA4921300EE8070F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E728068462EAB7E61C1190DE9CF36 /* Pods-KFCAppin_Example */,
+				404744D967269525C3292AC7427545E5 /* Pods-KFCAppin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		20C4E2FC9ED90B34172FBA1CBAC0C71D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0A962D2FB1D57D61E8EED57BA932E491 /* ADJActivityHandler.h */,
+				694C0B076C9904EE378209E787F8CAFE /* ADJActivityHandler.m */,
+				4E53034C78A721BFB40AF3806C781397 /* ADJActivityKind.h */,
+				31D3460C6C5466F16E67F56F21765914 /* ADJActivityKind.m */,
+				CAF6498E9B03F705643EDCEDD9CBC52B /* ADJActivityPackage.h */,
+				4947BCE992CAB695ADCA18B0634EB689 /* ADJActivityPackage.m */,
+				A092775B1F6C45DE4731FDA6485EF83B /* ADJActivityState.h */,
+				38AE46D9F5A2381411D2650D3C863D9A /* ADJActivityState.m */,
+				107440DF52034832E48211E893D67315 /* ADJAdjustFactory.h */,
+				C23A41324C0F74AC9316548CE406AD2B /* ADJAdjustFactory.m */,
+				2E7F248A37A6697C14D9B3BFE5C61C4E /* ADJAttribution.h */,
+				85A99738A0A1CC48778BD9058B659290 /* ADJAttribution.m */,
+				D5B103059FDE3A7A7C01F085A75B28DA /* ADJAttributionHandler.h */,
+				5CC1483283CA2943EB2EE86F1E574E03 /* ADJAttributionHandler.m */,
+				95B8094BA1A58AAAEF57C6C528BF185A /* ADJBackoffStrategy.h */,
+				2AF781EC26EF688A2EEB4A1800786E14 /* ADJBackoffStrategy.m */,
+				CD96D3A3536EE7BD56A48AF8C44EB37F /* ADJConfig.h */,
+				BDD03F1A85BDF2F017C40C9972BF4EC0 /* ADJConfig.m */,
+				E4ED060053DAF9312218A51C7C90596A /* ADJDeviceInfo.h */,
+				C143A3CB4D2B927C70FBEC2AF9E20FD2 /* ADJDeviceInfo.m */,
+				3B20F5E625430B2E9131F034F425770F /* ADJEvent.h */,
+				A9BA20E9CE0D989850825178539F18E3 /* ADJEvent.m */,
+				8E4296E7BC47279755F05E72A3C0D8B2 /* ADJEventFailure.h */,
+				D0FEDBBEFB8966FC9FD36A999A4C7396 /* ADJEventFailure.m */,
+				F0055C590AF323A27C459E63E0C22D77 /* ADJEventSuccess.h */,
+				1320571E6816062B7F23CA4A797278A3 /* ADJEventSuccess.m */,
+				B3CC5E436DBC97552FFC97022C924D93 /* ADJKeychain.h */,
+				F52FC9D7C72342BCB402DF1C50155B9C /* ADJKeychain.m */,
+				BCC33AE743DE1C468BDD79F20D2BCB36 /* ADJLogger.h */,
+				70ED853F7C4457E345DCF4A8621132A9 /* ADJLogger.m */,
+				8A3C3B3ADB3E8396DCEAAFC2325508B7 /* ADJPackageBuilder.h */,
+				32B1B7E85AA039297E8A86564F096999 /* ADJPackageBuilder.m */,
+				165C25A791F45365861D493C7BAF47C7 /* ADJPackageHandler.h */,
+				D23C6CE59CF7BA7E0580C3280353E47B /* ADJPackageHandler.m */,
+				24B314FA28F50CA212F8A418AF50FEF2 /* ADJReachability.h */,
+				292B361F64905254E352DDD5F7BDA087 /* ADJReachability.m */,
+				84D93B5462F8B302559CCC78D9FC1716 /* ADJRequestHandler.h */,
+				75C5441180A8DF72B9DBAA4E235B265F /* ADJRequestHandler.m */,
+				77847C05CEABDC3A1A79F86A4D1F02A0 /* ADJResponseData.h */,
+				2B24E66A986C66573BB25854862F4577 /* ADJResponseData.m */,
+				8A898C3D78536AA276F2A4038A7D921D /* ADJSdkClickHandler.h */,
+				BBDE51B9A1373F29AEA469DC07761F06 /* ADJSdkClickHandler.m */,
+				5C888327E0CF1281EAA651908EE1333E /* ADJSessionFailure.h */,
+				A322990F29E2FCCE2AEAACA623145E7E /* ADJSessionFailure.m */,
+				F1CA31B9A99121AF7C2BC33716BE6A42 /* ADJSessionParameters.h */,
+				C3C3F4E8BE79ECCC3E549BEE218C5F50 /* ADJSessionParameters.m */,
+				600A372F468341B8B8BD34970EEE9A45 /* ADJSessionSuccess.h */,
+				93BF982EDA658CFE35C9C3377B6AF657 /* ADJSessionSuccess.m */,
+				D5E81DD6F0D76221401322364B8229A9 /* ADJSubscription.h */,
+				9EDC20F53915B531475FFA753B986328 /* ADJSubscription.m */,
+				B2DECA41FB117E8246DF95A5D21B9DEC /* ADJSystemProfile.h */,
+				E20DAAABF224B48DC7E283A1EB0C6080 /* ADJSystemProfile.m */,
+				081EF6666148AEFB5A374589770DF880 /* ADJThirdPartySharing.h */,
+				739821A97CBD9CAB94421CC5CB52E536 /* ADJThirdPartySharing.m */,
+				34E53B0C075EA1CB99DCC0F0B4F8011F /* ADJTimerCycle.h */,
+				7E9A4FDBE7AE5176C2986A4AD85CF290 /* ADJTimerCycle.m */,
+				6E1E96FC04EBF3603FB00451D1E21CA3 /* ADJTimerOnce.h */,
+				60C94966E398F679660476B4BB8FF800 /* ADJTimerOnce.m */,
+				76D16D200865EE67B8D7EB78B1B9DC38 /* ADJUrlStrategy.h */,
+				1A3C4535497BE809B483162B53E7FE29 /* ADJUrlStrategy.m */,
+				7A760FB61018EE879F4FFE12BFC6031D /* ADJUserDefaults.h */,
+				6EDF510AB81AB118F4BDAEBB12014378 /* ADJUserDefaults.m */,
+				EE2AF85BD4C9A2E52F6132399061D4D8 /* Adjust.h */,
+				662E3759FA6839B1D9A5C76FA30CAA2D /* Adjust.m */,
+				39630B4F7131E978F5524BE18F4D934E /* ADJUtil.h */,
+				CFA665F239F811BB18A6555FB4798545 /* ADJUtil.m */,
+				E454E8F595F6D589DDFCBB6667A331ED /* NSData+ADJAdditions.h */,
+				ED94BA258B85E655626F019BD73CA0E3 /* NSData+ADJAdditions.m */,
+				D163B2BA8576CCD017097CFE9C59BE04 /* NSString+ADJAdditions.h */,
+				0B461B3F0112D8C5280404CBFD2E6F48 /* NSString+ADJAdditions.m */,
+				DE6623D9D93CECB873010EEED8F0A6C1 /* UIDevice+ADJAdditions.h */,
+				0A495FBA8751E9A4CF1D671DA9B0EB7F /* UIDevice+ADJAdditions.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		22E8A04E518C165FF4B45BAF91360D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust.framework */,
+				CD8072B3AB96174515CF4882065BFEB2 /* Pods_KFCAppin_Example.framework */,
+				62963B6795EDC5326817742321A9E534 /* Pods_KFCAppin_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		240E23B22A2646A240D149D976F19142 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49AEF5F86A02E29E2BFAD7029B656AE7 /* KFCAppin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		373B566A6850D66E5699B02D6E8BB25E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F4FAF91BBCB3F1E0C93AA7D17892826 /* Adjust */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		404744D967269525C3292AC7427545E5 /* Pods-KFCAppin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				11222ED35C08FAA97434FA22291B50B7 /* Pods-KFCAppin_Tests.modulemap */,
+				C35221975A250BFC2375A21E28407AEA /* Pods-KFCAppin_Tests-acknowledgements.markdown */,
+				A084124BA71BD6E866EA2610E295B637 /* Pods-KFCAppin_Tests-acknowledgements.plist */,
+				4E2615225ADDFFD677C3007BD26BD79E /* Pods-KFCAppin_Tests-dummy.m */,
+				16F0A6C919B7A9F50831F5B80913B55F /* Pods-KFCAppin_Tests-Info.plist */,
+				B033652594825838D9C18A39F215DE17 /* Pods-KFCAppin_Tests-umbrella.h */,
+				76437C0669E274C47545728DF8438FE8 /* Pods-KFCAppin_Tests.debug.xcconfig */,
+				D7B675C1E06578BE47E2AC723E4A5001 /* Pods-KFCAppin_Tests.release.xcconfig */,
+			);
+			name = "Pods-KFCAppin_Tests";
+			path = "Target Support Files/Pods-KFCAppin_Tests";
+			sourceTree = "<group>";
+		};
+		420F9DE80AB8325C1C812702969342E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEC1F38306C3D3CC9E2D652B77FF838 /* Adjust.modulemap */,
+				6FBD0B05999C09608389538A76382817 /* Adjust-dummy.m */,
+				760708368D2AEC8B92FBF25701853876 /* Adjust-Info.plist */,
+				31E6873C4C989DD08896E28770705337 /* Adjust-prefix.pch */,
+				9E80B08244CAD2D2C1398CE3EC8B39AA /* Adjust-umbrella.h */,
+				B5A5177D106E6E44E4AC907B2C6B2B72 /* Adjust.debug.xcconfig */,
+				8397DC1C8DA3F1A61C19DCE8B85825B5 /* Adjust.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Adjust";
+			sourceTree = "<group>";
+		};
+		49AEF5F86A02E29E2BFAD7029B656AE7 /* KFCAppin */ = {
+			isa = PBXGroup;
+			children = (
+				F486700A25D2CBD70015FF9B /* Classes */,
+				16DA9847B8DF54AECE94B1D456D092EB /* Pod */,
+				68209EF5D1A95FC2C98B95777D80CB60 /* Support Files */,
+			);
+			name = KFCAppin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4C1E728068462EAB7E61C1190DE9CF36 /* Pods-KFCAppin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				667D92456BFAA338135F7B97D78110E9 /* Pods-KFCAppin_Example.modulemap */,
+				558C5003F51624BBDF4CDF42D4300284 /* Pods-KFCAppin_Example-acknowledgements.markdown */,
+				36BA667A194B76AEBA6F338F8C139BE9 /* Pods-KFCAppin_Example-acknowledgements.plist */,
+				1CDAC6490778B58D36E9E9F40EF33AE5 /* Pods-KFCAppin_Example-dummy.m */,
+				CB9D7A0D090E1D86D7BB45424F165C55 /* Pods-KFCAppin_Example-frameworks.sh */,
+				924938735B0D4AA11678D11786EF47F3 /* Pods-KFCAppin_Example-Info.plist */,
+				2F3F804CE3C015BE0E29A7148DA731FA /* Pods-KFCAppin_Example-umbrella.h */,
+				D63F4BCDED5B98AD0A0DA0C056D21A0C /* Pods-KFCAppin_Example.debug.xcconfig */,
+				5322F1198B7C017881BA849C9C836F75 /* Pods-KFCAppin_Example.release.xcconfig */,
+			);
+			name = "Pods-KFCAppin_Example";
+			path = "Target Support Files/Pods-KFCAppin_Example";
+			sourceTree = "<group>";
+		};
+		68209EF5D1A95FC2C98B95777D80CB60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				328B435905E7B0A9221D96F4A2B38BFF /* KFCAppin.debug.xcconfig */,
+				86946142A45622F6E8ED2B424DF0CB3D /* KFCAppin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KFCAppin";
+			sourceTree = "<group>";
+		};
+		6F4FAF91BBCB3F1E0C93AA7D17892826 /* Adjust */ = {
+			isa = PBXGroup;
+			children = (
+				20C4E2FC9ED90B34172FBA1CBAC0C71D /* Core */,
+				420F9DE80AB8325C1C812702969342E9 /* Support Files */,
+			);
+			path = Adjust;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				240E23B22A2646A240D149D976F19142 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				373B566A6850D66E5699B02D6E8BB25E /* Pods */,
+				22E8A04E518C165FF4B45BAF91360D02 /* Products */,
+				1EA5F93377651198AA4921300EE8070F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7EBF6CCCA535BA4F447E10039CEA16 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */,
+				CE4F7799189C352E1D9346617C1FCFED /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F486700A25D2CBD70015FF9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F486700B25D2CBD70015FF9B /* ImagePickerManager.swift */,
+				F486700C25D2CBD70015FF9B /* HandleQRCodeLink.swift */,
+				F486700D25D2CBD70015FF9B /* QRParentVC + PhotoUI.swift */,
+				F486700E25D2CBD70015FF9B /* DeeplinkAttributes.swift */,
+				F486700F25D2CBD70015FF9B /* QRCode.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E6EAC1EA386FC38DDE5E492859E6B12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E098CD8F97B40D76F38E64301FFD055 /* Pods-KFCAppin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B56F910FCD48B8B93C5DE0BDB4A721A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5C0944E4A54F8B99ADF8627332819D /* Pods-KFCAppin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1735A9F93D4CEBC18F999CD1350E84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C1916124997974183C4BA49563B048 /* ADJActivityHandler.h in Headers */,
+				E3CD919C4FE1F1C4BB175157355A2C1C /* ADJActivityKind.h in Headers */,
+				5E542A35F4403B6502E596E57866C282 /* ADJActivityPackage.h in Headers */,
+				9BAC709C988170098806704D8FDC7BBD /* ADJActivityState.h in Headers */,
+				34ACF124784B06592AC5CA3824D87D17 /* ADJAdjustFactory.h in Headers */,
+				2E1B5EC303555277E1B22D3FDA2D3221 /* ADJAttribution.h in Headers */,
+				3C0385F426EAB612E851135F293BC818 /* ADJAttributionHandler.h in Headers */,
+				88D80F1C1A4413ACBF7DC5A41F1DD8BC /* ADJBackoffStrategy.h in Headers */,
+				10B3BC360F88F00E9E2C158BBF0ABC6A /* ADJConfig.h in Headers */,
+				15DA78D881D3E866F215060984A97F59 /* ADJDeviceInfo.h in Headers */,
+				562952ED7004A072E5EC6E4428625127 /* ADJEvent.h in Headers */,
+				4EFEB0C354D954FB23A564963C85D246 /* ADJEventFailure.h in Headers */,
+				7BC8146C81727D26D8905C375AB896D8 /* ADJEventSuccess.h in Headers */,
+				7C4453CA364E8A09A1C1CAE3DFBBCA91 /* ADJKeychain.h in Headers */,
+				82020DF0C17D94696E709D39D3A13CCF /* ADJLogger.h in Headers */,
+				57966CDAE0E069410D1AA1DEAF6B182A /* ADJPackageBuilder.h in Headers */,
+				12ABC8F9F2132408F0402CDEA2A013DA /* ADJPackageHandler.h in Headers */,
+				9018112C3BDB6342507590F0B5689777 /* ADJReachability.h in Headers */,
+				CD9AB780DFA7FD1FA5004F711B5DDD2A /* ADJRequestHandler.h in Headers */,
+				5B011FC26D71DCF4FD762B2FDE271F05 /* ADJResponseData.h in Headers */,
+				C5FD920C2F92F7F609DE924353EFB3E2 /* ADJSdkClickHandler.h in Headers */,
+				3B7B9E8FE50F54B06CF03C3DD45E9975 /* ADJSessionFailure.h in Headers */,
+				8F336F4E0AF7358CDC63F6DD1C01C752 /* ADJSessionParameters.h in Headers */,
+				FBD42B662B4D82064BD53233F42CAA71 /* ADJSessionSuccess.h in Headers */,
+				E022EAACDD7F2D58E223F27582BAEB9B /* ADJSubscription.h in Headers */,
+				1DC442080261E6369378105DB84D95C6 /* ADJSystemProfile.h in Headers */,
+				E7D4329C2B9D719A49904DAA79925B02 /* ADJThirdPartySharing.h in Headers */,
+				A307E74D448A1B23608164B480D52C40 /* ADJTimerCycle.h in Headers */,
+				F2F61B85243030A49FAFD01A4EF1241E /* ADJTimerOnce.h in Headers */,
+				FBDA5B427FD30E67E565F4787BB32D08 /* ADJUrlStrategy.h in Headers */,
+				4C757817A98C01FD567192CEB5B18782 /* ADJUserDefaults.h in Headers */,
+				6C24723F8BBD265B83678C3B8CC8EDE2 /* Adjust-umbrella.h in Headers */,
+				797F141BFC2A0F4675DCA360909BD64E /* Adjust.h in Headers */,
+				510194D626976A809373233F3455AF23 /* ADJUtil.h in Headers */,
+				A37165203ADEF555EFEE97A0EF6D0D55 /* NSData+ADJAdditions.h in Headers */,
+				0573C8F2A14EE1F0FB799645AEFE68ED /* NSString+ADJAdditions.h in Headers */,
+				6E3AB2B1F763B244D785C41BC468492D /* UIDevice+ADJAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0ADC4A7518646598EC33AD0331C4236A /* Pods-KFCAppin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EB85568DD1A0416E3112391CDBD5EB /* Build configuration list for PBXNativeTarget "Pods-KFCAppin_Example" */;
+			buildPhases = (
+				2B56F910FCD48B8B93C5DE0BDB4A721A /* Headers */,
+				1885DB4F562C379CCA5CA53800D3DEB7 /* Sources */,
+				7D93D33F640A082FF093A4B8624168B2 /* Frameworks */,
+				92F18B45D916750B1D8143E5996F9B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE54B586C3B665CCA15D47356069830A /* PBXTargetDependency */,
+				E11C15EF5006097F8F2E764146F007D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-KFCAppin_Example";
+			productName = "Pods-KFCAppin_Example";
+			productReference = CD8072B3AB96174515CF4882065BFEB2 /* Pods_KFCAppin_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8F3D72C598D891AAA4E744FD6B829F /* Build configuration list for PBXNativeTarget "Adjust" */;
+			buildPhases = (
+				4D1735A9F93D4CEBC18F999CD1350E84 /* Headers */,
+				B1B85CA05EA8D9A25F1D2FEE8F5044C5 /* Sources */,
+				53DB41569751843126997ECE133443BE /* Frameworks */,
+				283589C0A3CB1068E2001548B40CD9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adjust;
+			productName = Adjust;
+			productReference = 7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		935F6D042E2311D76A730E3FC5C535B2 /* Pods-KFCAppin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF85B158EEFC0B18D6FF8ECD7D8F516 /* Build configuration list for PBXNativeTarget "Pods-KFCAppin_Tests" */;
+			buildPhases = (
+				0E6EAC1EA386FC38DDE5E492859E6B12 /* Headers */,
+				4E698FBA3D1F26E74C12CEE64AFC57C7 /* Sources */,
+				B6FE3EAC5BADC0B07E32CB95969DA2B7 /* Frameworks */,
+				883F23768F09934805751164816C9735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17340BBDC73FA094077B862D421E637B /* PBXTargetDependency */,
+			);
+			name = "Pods-KFCAppin_Tests";
+			productName = "Pods-KFCAppin_Tests";
+			productReference = 62963B6795EDC5326817742321A9E534 /* Pods_KFCAppin_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 22E8A04E518C165FF4B45BAF91360D02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */,
+				A35D6960D9B93421441050FE213EB232 /* KFCAppin */,
+				0ADC4A7518646598EC33AD0331C4236A /* Pods-KFCAppin_Example */,
+				935F6D042E2311D76A730E3FC5C535B2 /* Pods-KFCAppin_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283589C0A3CB1068E2001548B40CD9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883F23768F09934805751164816C9735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F18B45D916750B1D8143E5996F9B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1885DB4F562C379CCA5CA53800D3DEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEAFFEFA6C0FF5A0BC9F29F163B607D /* Pods-KFCAppin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E698FBA3D1F26E74C12CEE64AFC57C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4AC7764C4899AFF0A3A536641FBA68 /* Pods-KFCAppin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B85CA05EA8D9A25F1D2FEE8F5044C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BA834278C50C5DE870AC1F48531B99 /* ADJActivityHandler.m in Sources */,
+				70EAF5B2026BEBD9F0FE89CB03F75CAA /* ADJActivityKind.m in Sources */,
+				5BDD9E346B42C4B569DFD979AEEAF908 /* ADJActivityPackage.m in Sources */,
+				03F601208CF2B7BEEF9D92C43B8EA043 /* ADJActivityState.m in Sources */,
+				92EB87665600C8456488034652EADE3A /* ADJAdjustFactory.m in Sources */,
+				3EFAB9A79FBCD357BE5FBBDEFDC62F4C /* ADJAttribution.m in Sources */,
+				D9F5D2705F3C5B08E20DA1EBE1A25844 /* ADJAttributionHandler.m in Sources */,
+				9448EAA12834734ECDD051731DF6E137 /* ADJBackoffStrategy.m in Sources */,
+				AC7531C4BA02EA16D946E76451227EF1 /* ADJConfig.m in Sources */,
+				53CD8902ECEDF59B39DAC16C9D359712 /* ADJDeviceInfo.m in Sources */,
+				4D6DCCF246B2C412E80671D32544A0F4 /* ADJEvent.m in Sources */,
+				38FB3ACCBE836A387768C1C0A4D9771A /* ADJEventFailure.m in Sources */,
+				D3A18A4498F804DC00EA55466708A56F /* ADJEventSuccess.m in Sources */,
+				A2F0080D7AFE0E984D9B77B66FFBBDDB /* ADJKeychain.m in Sources */,
+				921613A90E6401228E35044550BAD469 /* ADJLogger.m in Sources */,
+				19231CE1925DB7B663784C7E9C9C024A /* ADJPackageBuilder.m in Sources */,
+				8ED237F0368BF42840AB3495CF1F8B98 /* ADJPackageHandler.m in Sources */,
+				5628F940169D37066B0A59ACEE37087E /* ADJReachability.m in Sources */,
+				8E0FFF7BE3777345A7DF5352EEB630A7 /* ADJRequestHandler.m in Sources */,
+				7CE02FA80F55EA368D1424CBF9086480 /* ADJResponseData.m in Sources */,
+				24EC6C18AEA88222B1E2D617F8EE61B4 /* ADJSdkClickHandler.m in Sources */,
+				AC4768F54B67F03E49E806180A8F6917 /* ADJSessionFailure.m in Sources */,
+				0C87CA885043ABD210C6A02FD33FF2AD /* ADJSessionParameters.m in Sources */,
+				D8080E1A9445C937FB60D940DB9E92B9 /* ADJSessionSuccess.m in Sources */,
+				C8294124BBE5E06B98667C53BCBF628F /* ADJSubscription.m in Sources */,
+				376A180B0267F3DFEDBE07F89C51E225 /* ADJSystemProfile.m in Sources */,
+				BD5B62831F8FBA670B10AA6413EB4CD6 /* ADJThirdPartySharing.m in Sources */,
+				40625D66ED58C3D18EC463B3D641B7D9 /* ADJTimerCycle.m in Sources */,
+				B28A99D3D9F934BEE426E6BC1099846B /* ADJTimerOnce.m in Sources */,
+				6216B90B9847909F88D3E1DB0BC64B31 /* ADJUrlStrategy.m in Sources */,
+				79BA67D2285387D0D573E72C06AB54A7 /* ADJUserDefaults.m in Sources */,
+				44B3681E47B1E50EBC627F0F7DD748CF /* Adjust-dummy.m in Sources */,
+				63229EDF9AC62A18736E28C5DB1CA53E /* Adjust.m in Sources */,
+				52D15BCE481B53B38C94D108FA90E622 /* ADJUtil.m in Sources */,
+				7460CE50C414A31A24F28726BE1C8538 /* NSData+ADJAdditions.m in Sources */,
+				4957A1982AAF824C4FFB5E872BE01708 /* NSString+ADJAdditions.m in Sources */,
+				FC7C0E46CE9F1405145956F321EA8E55 /* UIDevice+ADJAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17340BBDC73FA094077B862D421E637B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KFCAppin_Example";
+			target = 0ADC4A7518646598EC33AD0331C4236A /* Pods-KFCAppin_Example */;
+			targetProxy = C8A11BB2A38A0D6D8DAA35F9D1D6C51C /* PBXContainerItemProxy */;
+		};
+		DE54B586C3B665CCA15D47356069830A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Adjust;
+			target = 7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */;
+			targetProxy = DB4C0720B4F974AF359E8184B3EDF9CE /* PBXContainerItemProxy */;
+		};
+		E11C15EF5006097F8F2E764146F007D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFCAppin;
+			target = A35D6960D9B93421441050FE213EB232 /* KFCAppin */;
+			targetProxy = 795EA14D73D8B5232F941C10085D39F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00FCC8670DCD7F12659ACF3DEACEA326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328B435905E7B0A9221D96F4A2B38BFF /* KFCAppin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03ABC9B56FA0D9E38D5A71CDBDA47C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A5177D106E6E44E4AC907B2C6B2B72 /* Adjust.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Adjust/Adjust-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Adjust/Adjust-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Adjust/Adjust.modulemap";
+				PRODUCT_MODULE_NAME = Adjust;
+				PRODUCT_NAME = Adjust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DFD4A86E5FDE33093EBE8183F7FFAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B675C1E06578BE47E2AC723E4A5001 /* Pods-KFCAppin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KFCAppin_Tests/Pods-KFCAppin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KFCAppin_Tests/Pods-KFCAppin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59872A264747A40932A78979FB6DD553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8397DC1C8DA3F1A61C19DCE8B85825B5 /* Adjust.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Adjust/Adjust-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Adjust/Adjust-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Adjust/Adjust.modulemap";
+				PRODUCT_MODULE_NAME = Adjust;
+				PRODUCT_NAME = Adjust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		601C144EB4D083159C11711CFEB184FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5322F1198B7C017881BA849C9C836F75 /* Pods-KFCAppin_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KFCAppin_Example/Pods-KFCAppin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KFCAppin_Example/Pods-KFCAppin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E4715EB8121D6973647A6472ACC26BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63F4BCDED5B98AD0A0DA0C056D21A0C /* Pods-KFCAppin_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KFCAppin_Example/Pods-KFCAppin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KFCAppin_Example/Pods-KFCAppin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CCFC153A6D51E9DD087B625F4177876E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86946142A45622F6E8ED2B424DF0CB3D /* KFCAppin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0FCF83F6A153952D267BCEE6B898CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76437C0669E274C47545728DF8438FE8 /* Pods-KFCAppin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KFCAppin_Tests/Pods-KFCAppin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KFCAppin_Tests/Pods-KFCAppin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23EB85568DD1A0416E3112391CDBD5EB /* Build configuration list for PBXNativeTarget "Pods-KFCAppin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4715EB8121D6973647A6472ACC26BD /* Debug */,
+				601C144EB4D083159C11711CFEB184FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C8F3D72C598D891AAA4E744FD6B829F /* Build configuration list for PBXNativeTarget "Adjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ABC9B56FA0D9E38D5A71CDBDA47C17 /* Debug */,
+				59872A264747A40932A78979FB6DD553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D601DC2F277A26420F4D4FB58E99A0E /* Build configuration list for PBXAggregateTarget "KFCAppin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FCC8670DCD7F12659ACF3DEACEA326 /* Debug */,
+				CCFC153A6D51E9DD087B625F4177876E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF85B158EEFC0B18D6FF8ECD7D8F516 /* Build configuration list for PBXNativeTarget "Pods-KFCAppin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FCF83F6A153952D267BCEE6B898CBA /* Debug */,
+				4DFD4A86E5FDE33093EBE8183F7FFAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
